@@ -100,3 +100,42 @@ body {
 .login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
   padding: 0.8375em 0;
 }
+.container {
+  width: 100%;
+  height: 90%;
+}
+
+.opac{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.5)
+}
+
+.sidebar{
+  width: 20%;
+  height: 100%;
+  background: url('../../../assets/img/curso-login-2.jpg');
+}
+
+.p-login-msg{
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  top: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sidebar{
+    display: none;
+  }
+}
